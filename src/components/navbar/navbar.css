@@ -4,7 +4,12 @@
 }
 
 .Navbar-icon {
-  padding: 10px;
+  height: 28px;
+  padding: 12px;
+}
+
+.Navbar-icon:hover {
+  animation: icon-spin infinite 10s linear;
 }
 
 .Navbar-items {
@@ -34,4 +39,9 @@
 
 .Navbar-item a:hover {
   color: var(--Color-brand--light);
+}
+
+@keyframes icon-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }

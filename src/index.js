@@ -10,7 +10,7 @@ import 'normalize.css';
 import './style/fonts.css';
 import './style/colors.css';
 import './index.css';
-import logo from './logo.svg';
+import logo from './pentagon.svg';
 
 /** App State */
 import store from './store';
