@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Router from 'react-router/BrowserRouter';
 import Match from 'react-router/Match';
 import Link from 'react-router/Link';
+import Redirect from 'react-router/Redirect';
 import { Provider } from 'react-redux';
 
 /** Styles */
@@ -19,6 +20,9 @@ import store from './store';
 import NavBar from './components/navbar/NavBar';
 import Domain from './containers/domain/Domain';
 
+const Home = () => <Redirect to="/domains"/>;
+
+
 ReactDOM.render(
   <Provider store={store}>
     <Router>
@@ -28,8 +32,8 @@ ReactDOM.render(
           <Link to="/123">Home</Link>
         </NavBar>
 
-        <Match exactly pattern="/" component={Domain} />
-        <Match exactly pattern="/asd" component={Domain} />
+        <Match exactly pattern="/" component={() => <Redirect to="/domains"/>} />
+        <Match exactly pattern="/domains" component={Domain} />
       </div>
     </Router>
   </Provider>,

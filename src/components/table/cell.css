@@ -1,0 +1,8 @@
+.Cell {
+  box-sizing: border-box;
+
+  flex: 0 0 auto;
+
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
