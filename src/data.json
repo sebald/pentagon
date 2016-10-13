@@ -1,0 +1,1063 @@
+{
+  "domain": [
+    {
+      "id": "1",
+      "label": "Teal",
+      "created": "2012-10-15T11:52:29Z",
+      "modified": "2015-10-10T11:15:06Z"
+    },
+    {
+      "id": "2",
+      "label": "Mauv",
+      "created": "2012-12-23T10:40:58Z"
+    },
+    {
+      "id": "4",
+      "label": "Indigo",
+      "created": "2012-01-11T00:32:10Z"
+    },
+    {
+      "id": "6",
+      "label": "Aquamarine",
+      "created": "2012-06-19T10:27:07Z",
+      "modified": "2015-11-13T22:41:30Z"
+    },
+    {
+      "id": "7",
+      "label": "Maroon",
+      "created": "2014-05-18T13:45:31Z"
+    },
+    {
+      "id": "8",
+      "label": "Violet",
+      "created": "2012-06-15T00:57:55Z"
+    }
+  ],
+  "group": [
+    {
+      "id": "6",
+      "domain_id": "8",
+      "label": "Dodol",
+      "created": "2013-03-23T15:59:00Z",
+      "modified": "2016-05-14T23:28:11Z"
+    },
+    {
+      "id": "3",
+      "domain_id": "8",
+      "label": "Caacupé",
+      "created": "2015-09-25T21:26:03Z"
+    },
+    {
+      "id": "0",
+      "domain_id": "2",
+      "label": "Atiquizaya",
+      "created": "2016-02-07T20:51:01Z",
+      "modified": "2016-06-09T18:53:40Z"
+    },
+    {
+      "id": "8",
+      "domain_id": "1",
+      "label": "Wuyang",
+      "created": "2015-12-17T09:42:46Z"
+    },
+    {
+      "id": "2",
+      "domain_id": "1",
+      "label": "Navariya",
+      "created": "2012-09-11T07:14:37Z",
+      "modified": "2016-05-28T13:15:23Z"
+    },
+    {
+      "id": "1",
+      "domain_id": "1",
+      "label": "Chaguaramas",
+      "created": "2014-08-11T11:59:01Z",
+      "modified": "2015-11-08T01:04:28Z"
+    },
+    {
+      "id": "1",
+      "domain_id": "6",
+      "label": "Khorosheve",
+      "created": "2016-01-15T19:17:20Z"
+    },
+    {
+      "id": "3",
+      "domain_id": "6",
+      "label": "Zharkovskiy",
+      "created": "2016-01-22T23:23:22Z",
+      "modified": "2016-08-12T08:57:41Z"
+    },
+    {
+      "id": "0",
+      "domain_id": "1",
+      "label": "Xinshi",
+      "created": "2013-07-22T03:01:53Z"
+    },
+    {
+      "id": "2",
+      "domain_id": "2",
+      "label": "Bourg-lès-Valence",
+      "created": "2013-07-14T01:18:07Z"
+    },
+    {
+      "id": "3",
+      "domain_id": "4",
+      "label": "Guashe",
+      "created": "2016-06-15T10:43:02Z",
+      "modified": "2015-11-08T01:04:28Z"
+    },
+    {
+      "id": "0",
+      "domain_id": "7",
+      "label": "Malaryta",
+      "created": "2016-01-09T09:53:46Z"
+    },
+    {
+      "id": "5",
+      "domain_id": "6",
+      "label": "Qianshan",
+      "created": "2013-07-03T08:40:27Z",
+      "modified": "2015-11-08T01:04:28Z"
+    },
+    {
+      "id": "8",
+      "domain_id": "8",
+      "label": "Poroj",
+      "created": "2016-08-16T05:29:37Z"
+    },
+    {
+      "id": "4",
+      "domain_id": "4",
+      "label": "Araci",
+      "created": "2012-07-03T15:06:58Z",
+      "modified": "2016-03-08T06:45:36Z"
+    },
+    {
+      "id": "9",
+      "domain_id": "1",
+      "label": "Mosty",
+      "created": "2012-11-29T23:42:07Z"
+    },
+    {
+      "id": "8",
+      "domain_id": "2",
+      "label": "Hats’avan",
+      "created": "2014-07-20T07:53:19Z",
+      "modified": "2016-03-08T06:45:36Z"
+    },
+    {
+      "id": "4",
+      "domain_id": "6",
+      "label": "Belyye Stolby",
+      "created": "2013-05-05T21:32:03Z"
+    },
+    {
+      "id": "5",
+      "domain_id": "4",
+      "label": "Nova Era",
+      "created": "2014-09-24T01:23:58Z"
+    }
+  ],
+  "product": [
+    {
+      "id": "039",
+      "group_id": "4",
+      "domain_id": "1",
+      "name": "TESTOSTERONE",
+      "classification": "3XL",
+      "created": "2015-12-30T01:12:49Z",
+      "modified": null
+    },
+    {
+      "id": "050",
+      "group_id": "8",
+      "domain_id": "1",
+      "name": "Homosalate and Octinoxate and Octisalate and Octocrylene and Avobenzone",
+      "classification": "XL",
+      "created": "2013-10-14T09:32:45Z",
+      "modified": "2015-03-06T06:37:33Z"
+    },
+    {
+      "id": "403",
+      "group_id": "2",
+      "domain_id": "9",
+      "name": "ramipril",
+      "classification": "XL",
+      "created": "2014-02-28T03:52:00Z",
+      "modified": "2015-05-17T15:08:12Z"
+    },
+    {
+      "id": "495",
+      "group_id": "7",
+      "domain_id": "2",
+      "name": "Eucalyptus",
+      "classification": "L",
+      "created": "2014-02-25T05:06:15Z",
+      "modified": "2012-04-23T15:28:07Z"
+    },
+    {
+      "id": "577",
+      "group_id": "2",
+      "domain_id": "1",
+      "name": "Ethylhexyl Methoxycinnamate, Zinc Oxide",
+      "classification": "XS",
+      "created": "2016-07-11T19:05:14Z",
+      "modified": null
+    },
+    {
+      "id": "005",
+      "group_id": "9",
+      "domain_id": "1",
+      "name": "oxymorphone hydrochloride",
+      "classification": "XL",
+      "created": "2015-05-18T19:51:36Z",
+      "modified": null
+    },
+    {
+      "id": "335",
+      "group_id": "5",
+      "domain_id": "6",
+      "name": "Phenylephrine HCl",
+      "classification": "2XL",
+      "created": "2015-12-15T06:04:58Z",
+      "modified": "2016-03-27T01:51:58Z"
+    },
+    {
+      "id": "493",
+      "group_id": "7",
+      "domain_id": "3",
+      "name": "Acetaminophen and Phenylephrine Hydrochloride",
+      "classification": "3XL",
+      "created": "2013-05-07T14:28:23Z",
+      "modified": null
+    },
+    {
+      "id": "257",
+      "group_id": "4",
+      "domain_id": "6",
+      "name": "Oxygen",
+      "classification": "XL",
+      "created": "2015-01-14T00:12:01Z",
+      "modified": null
+    },
+    {
+      "id": "509",
+      "group_id": "5",
+      "domain_id": "1",
+      "name": "HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE",
+      "classification": "XS",
+      "created": "2012-12-21T18:52:58Z",
+      "modified": null
+    },
+    {
+      "id": "375",
+      "group_id": "9",
+      "domain_id": "6",
+      "name": "Naproxen",
+      "classification": "M",
+      "created": "2014-11-11T11:15:04Z",
+      "modified": "2014-07-01T06:37:59Z"
+    },
+    {
+      "id": "113",
+      "group_id": "1",
+      "domain_id": "5",
+      "name": "Alprazolam",
+      "classification": "XL",
+      "created": "2012-01-04T18:54:21Z",
+      "modified": null
+    },
+    {
+      "id": "924",
+      "group_id": "7",
+      "domain_id": "3",
+      "name": "California Valley White Oak",
+      "classification": "L",
+      "created": "2013-06-26T07:08:54Z",
+      "modified": "2015-04-28T13:07:42Z"
+    },
+    {
+      "id": "015",
+      "group_id": "7",
+      "domain_id": "5",
+      "name": "Pecan Nut",
+      "classification": "S",
+      "created": "2013-10-14T08:52:53Z",
+      "modified": null
+    },
+    {
+      "id": "714",
+      "group_id": "1",
+      "domain_id": "4",
+      "name": "DIMETHICONE",
+      "classification": "XL",
+      "created": "2014-10-13T03:24:06Z",
+      "modified": null
+    },
+    {
+      "id": "443",
+      "group_id": "2",
+      "domain_id": "2",
+      "name": "PHENOBARBITAL ELIXIR",
+      "classification": "S",
+      "created": "2016-04-13T20:09:05Z",
+      "modified": null
+    },
+    {
+      "id": "166",
+      "group_id": "2",
+      "domain_id": "3",
+      "name": "Magnesium hydroxide",
+      "classification": "3XL",
+      "created": "2014-01-10T02:36:43Z",
+      "modified": null
+    },
+    {
+      "id": "949",
+      "group_id": "0",
+      "domain_id": "5",
+      "name": "Aluminum zirconium tetrachlorohydrex gly",
+      "classification": "M",
+      "created": "2014-04-09T19:37:54Z",
+      "modified": "2014-06-07T08:06:38Z"
+    },
+    {
+      "id": "856",
+      "group_id": "6",
+      "domain_id": "1",
+      "name": "Hydrocodone Bitartrate And Acetaminophen",
+      "classification": "2XL",
+      "created": "2012-11-06T13:48:12Z",
+      "modified": null
+    },
+    {
+      "id": "385",
+      "group_id": "6",
+      "domain_id": "5",
+      "name": "OCTINOXATE, OCTISALATE, OXYBENZONE, and TITANIUM DIOXIDE",
+      "classification": "L",
+      "created": "2013-08-31T21:03:19Z",
+      "modified": null
+    },
+    {
+      "id": "821",
+      "group_id": "2",
+      "domain_id": "5",
+      "name": "Hydrocortisone Acetate",
+      "classification": "L",
+      "created": "2014-10-26T07:39:02Z",
+      "modified": null
+    },
+    {
+      "id": "772",
+      "group_id": "6",
+      "domain_id": "3",
+      "name": "Doxycycline Hyclate",
+      "classification": "3XL",
+      "created": "2012-08-15T21:01:27Z",
+      "modified": null
+    },
+    {
+      "id": "681",
+      "group_id": "1",
+      "domain_id": "1",
+      "name": "Benzoyl Peroxide",
+      "classification": "M",
+      "created": "2014-09-21T03:36:21Z",
+      "modified": null
+    },
+    {
+      "id": "656",
+      "group_id": "0",
+      "domain_id": "8",
+      "name": "Bupropion Hydrochloride",
+      "classification": "XS",
+      "created": "2014-04-12T14:49:50Z",
+      "modified": null
+    },
+    {
+      "id": "182",
+      "group_id": "6",
+      "domain_id": "6",
+      "name": "Arizona Cypress",
+      "classification": "S",
+      "created": "2016-03-22T12:29:24Z",
+      "modified": null
+    },
+    {
+      "id": "025",
+      "group_id": "8",
+      "domain_id": "3",
+      "name": "Nystatin",
+      "classification": "2XL",
+      "created": "2012-01-18T00:32:00Z",
+      "modified": null
+    },
+    {
+      "id": "886",
+      "group_id": "0",
+      "domain_id": "6",
+      "name": "tinidazole",
+      "classification": "L",
+      "created": "2012-04-23T18:49:29Z",
+      "modified": null
+    },
+    {
+      "id": "492",
+      "group_id": "0",
+      "domain_id": "5",
+      "name": "Lactulose",
+      "classification": "2XL",
+      "created": "2016-02-18T09:47:07Z",
+      "modified": null
+    },
+    {
+      "id": "955",
+      "group_id": "9",
+      "domain_id": "9",
+      "name": "Magnesium hydroxide",
+      "classification": "XS",
+      "created": "2012-08-27T09:11:15Z",
+      "modified": null
+    },
+    {
+      "id": "096",
+      "group_id": "2",
+      "domain_id": "6",
+      "name": "Risperidone",
+      "classification": "3XL",
+      "created": "2014-06-13T08:20:11Z",
+      "modified": null
+    },
+    {
+      "id": "491",
+      "group_id": "1",
+      "domain_id": "2",
+      "name": "Alclometasone Dipropionate",
+      "classification": "L",
+      "created": "2014-06-14T01:14:06Z",
+      "modified": null
+    },
+    {
+      "id": "994",
+      "group_id": "5",
+      "domain_id": "3",
+      "name": "CEFADROXIL",
+      "classification": "3XL",
+      "created": "2014-01-17T02:57:17Z",
+      "modified": "2013-08-04T12:52:24Z"
+    },
+    {
+      "id": "528",
+      "group_id": "2",
+      "domain_id": "9",
+      "name": "psyllium husk",
+      "classification": "S",
+      "created": "2015-06-07T19:36:29Z",
+      "modified": null
+    },
+    {
+      "id": "665",
+      "group_id": "4",
+      "domain_id": "2",
+      "name": "BENZALKONIUM CHLORIDE",
+      "classification": "M",
+      "created": "2015-08-03T13:19:28Z",
+      "modified": null
+    },
+    {
+      "id": "198",
+      "group_id": "5",
+      "domain_id": "5",
+      "name": "Loratadine, Pseudoephedrine",
+      "classification": "XS",
+      "created": "2015-11-28T11:39:32Z",
+      "modified": null
+    },
+    {
+      "id": "164",
+      "group_id": "8",
+      "domain_id": "5",
+      "name": "Loratadine",
+      "classification": "XL",
+      "created": "2012-03-17T20:59:52Z",
+      "modified": null
+    },
+    {
+      "id": "361",
+      "group_id": "5",
+      "domain_id": "2",
+      "name": "Hydromorphone Hydrochloride",
+      "classification": "L",
+      "created": "2014-01-04T05:14:22Z",
+      "modified": null
+    },
+    {
+      "id": "275",
+      "group_id": "6",
+      "domain_id": "8",
+      "name": "benazepril hydrochloride and hydrochlorothiazide",
+      "classification": "M",
+      "created": "2015-12-26T07:01:48Z",
+      "modified": null
+    },
+    {
+      "id": "798",
+      "group_id": "7",
+      "domain_id": "6",
+      "name": "acetaminophen and codeine phosphate",
+      "classification": "3XL",
+      "created": "2012-12-28T22:31:27Z",
+      "modified": "2014-09-17T18:10:21Z"
+    },
+    {
+      "id": "016",
+      "group_id": "7",
+      "domain_id": "9",
+      "name": "metolazone",
+      "classification": "L",
+      "created": "2014-11-17T16:06:11Z",
+      "modified": null
+    },
+    {
+      "id": "354",
+      "group_id": "0",
+      "domain_id": "8",
+      "name": "Benzocaine, Menthol",
+      "classification": "M",
+      "created": "2016-06-10T01:33:23Z",
+      "modified": null
+    },
+    {
+      "id": "003",
+      "group_id": "0",
+      "domain_id": "1",
+      "name": "Sodium Fluoride",
+      "classification": "2XL",
+      "created": "2016-02-06T11:49:09Z",
+      "modified": null
+    },
+    {
+      "id": "901",
+      "group_id": "1",
+      "domain_id": "9",
+      "name": "CALENDULA OFFICINALIS FLOWERING TOP",
+      "classification": "L",
+      "created": "2012-03-12T20:05:08Z",
+      "modified": "2015-02-02T12:39:06Z"
+    },
+    {
+      "id": "772",
+      "group_id": "7",
+      "domain_id": "2",
+      "name": "PRAMIPEXOLE DIHYDROCHLORIDE",
+      "classification": "XL",
+      "created": "2014-03-01T19:39:52Z",
+      "modified": null
+    },
+    {
+      "id": "328",
+      "group_id": "8",
+      "domain_id": "6",
+      "name": "Menthol",
+      "classification": "M",
+      "created": "2014-03-15T09:14:54Z",
+      "modified": "2012-09-21T19:24:13Z"
+    },
+    {
+      "id": "833",
+      "group_id": "8",
+      "domain_id": "5",
+      "name": "amitriptyline hydrochloride",
+      "classification": "L",
+      "created": "2014-05-22T02:49:04Z",
+      "modified": null
+    },
+    {
+      "id": "141",
+      "group_id": "7",
+      "domain_id": "8",
+      "name": "Octinoxate and Titanium Dioxide",
+      "classification": "M",
+      "created": "2015-12-29T03:54:04Z",
+      "modified": null
+    },
+    {
+      "id": "901",
+      "group_id": "9",
+      "domain_id": "2",
+      "name": "METRONIDAZOLE",
+      "classification": "S",
+      "created": "2014-10-06T14:13:49Z",
+      "modified": null
+    },
+    {
+      "id": "226",
+      "group_id": "0",
+      "domain_id": "7",
+      "name": "eurotium herbariorum",
+      "classification": "3XL",
+      "created": "2015-12-06T23:25:05Z",
+      "modified": "2013-02-20T01:10:51Z"
+    },
+    {
+      "id": "876",
+      "group_id": "4",
+      "domain_id": "4",
+      "name": "gemfibrozil",
+      "classification": "S",
+      "created": "2014-03-08T01:32:10Z",
+      "modified": null
+    },
+    {
+      "id": "450",
+      "group_id": "5",
+      "domain_id": "2",
+      "name": "Estradiol",
+      "classification": "2XL",
+      "created": "2013-05-26T05:55:35Z",
+      "modified": "2014-06-27T08:26:59Z"
+    },
+    {
+      "id": "623",
+      "group_id": "3",
+      "domain_id": "6",
+      "name": "flurazepam hydrochloride",
+      "classification": "L",
+      "created": "2014-04-06T12:23:36Z",
+      "modified": "2013-04-02T06:50:55Z"
+    },
+    {
+      "id": "988",
+      "group_id": "1",
+      "domain_id": "9",
+      "name": "Triclosan",
+      "classification": "S",
+      "created": "2016-07-15T21:09:37Z",
+      "modified": null
+    },
+    {
+      "id": "092",
+      "group_id": "0",
+      "domain_id": "7",
+      "name": "fludarabine phosphate",
+      "classification": "L",
+      "created": "2012-12-06T08:34:24Z",
+      "modified": null
+    },
+    {
+      "id": "453",
+      "group_id": "6",
+      "domain_id": "3",
+      "name": "bupropion hydrochloride",
+      "classification": "XS",
+      "created": "2014-11-10T06:57:11Z",
+      "modified": null
+    },
+    {
+      "id": "280",
+      "group_id": "9",
+      "domain_id": "3",
+      "name": "Levofloxacin",
+      "classification": "XL",
+      "created": "2016-04-20T02:10:54Z",
+      "modified": "2016-05-26T03:02:19Z"
+    },
+    {
+      "id": "770",
+      "group_id": "1",
+      "domain_id": "6",
+      "name": "Lisinopril",
+      "classification": "S",
+      "created": "2012-02-01T03:13:22Z",
+      "modified": null
+    },
+    {
+      "id": "057",
+      "group_id": "6",
+      "domain_id": "5",
+      "name": "CAMPHOR (SYNTHETIC), MENTHOL, METHYL SALICYLATE",
+      "classification": "S",
+      "created": "2015-01-29T03:40:27Z",
+      "modified": "2013-11-10T19:33:39Z"
+    },
+    {
+      "id": "850",
+      "group_id": "2",
+      "domain_id": "8",
+      "name": "nadolol",
+      "classification": "2XL",
+      "created": "2016-08-09T23:14:48Z",
+      "modified": null
+    },
+    {
+      "id": "326",
+      "group_id": "5",
+      "domain_id": "6",
+      "name": "PREGABALIN",
+      "classification": "3XL",
+      "created": "2015-01-17T01:00:54Z",
+      "modified": null
+    },
+    {
+      "id": "838",
+      "group_id": "6",
+      "domain_id": "9",
+      "name": "triamcinolone acetonide",
+      "classification": "XL",
+      "created": "2013-05-06T11:45:37Z",
+      "modified": null
+    },
+    {
+      "id": "837",
+      "group_id": "0",
+      "domain_id": "5",
+      "name": "Pamabrom",
+      "classification": "M",
+      "created": "2013-01-04T23:11:24Z",
+      "modified": null
+    },
+    {
+      "id": "730",
+      "group_id": "9",
+      "domain_id": "1",
+      "name": "Arnica Montana",
+      "classification": "M",
+      "created": "2014-04-08T09:50:13Z",
+      "modified": null
+    },
+    {
+      "id": "941",
+      "group_id": "0",
+      "domain_id": "7",
+      "name": "Antihemophilic Factor, Human Recombinant",
+      "classification": "2XL",
+      "created": "2012-07-17T12:31:34Z",
+      "modified": "2016-01-12T19:35:52Z"
+    },
+    {
+      "id": "543",
+      "group_id": "5",
+      "domain_id": "9",
+      "name": "Allantoin",
+      "classification": "L",
+      "created": "2012-11-10T02:01:10Z",
+      "modified": "2013-09-22T06:36:41Z"
+    },
+    {
+      "id": "130",
+      "group_id": "6",
+      "domain_id": "5",
+      "name": "Treatment Set TS329750",
+      "classification": "S",
+      "created": "2012-12-16T12:26:57Z",
+      "modified": null
+    },
+    {
+      "id": "750",
+      "group_id": "0",
+      "domain_id": "8",
+      "name": "Zinc Oxide, Titanium Dioxide",
+      "classification": "2XL",
+      "created": "2014-08-24T12:08:09Z",
+      "modified": null
+    },
+    {
+      "id": "599",
+      "group_id": "3",
+      "domain_id": "6",
+      "name": "Menthol, zinc oxide",
+      "classification": "S",
+      "created": "2013-02-02T09:36:11Z",
+      "modified": null
+    },
+    {
+      "id": "388",
+      "group_id": "9",
+      "domain_id": "3",
+      "name": "hydrocodone bitartrate, ibuprofen",
+      "classification": "XL",
+      "created": "2014-05-04T13:27:03Z",
+      "modified": null
+    },
+    {
+      "id": "524",
+      "group_id": "5",
+      "domain_id": "1",
+      "name": "Tree Mix 11",
+      "classification": "XS",
+      "created": "2012-04-08T20:04:13Z",
+      "modified": null
+    },
+    {
+      "id": "323",
+      "group_id": "4",
+      "domain_id": "6",
+      "name": "Salicylic Acid",
+      "classification": "L",
+      "created": "2012-06-03T17:35:59Z",
+      "modified": null
+    },
+    {
+      "id": "812",
+      "group_id": "5",
+      "domain_id": "2",
+      "name": "candida albicans, candida parapsilosis and penicillium roqueforti",
+      "classification": "3XL",
+      "created": "2014-03-27T23:57:09Z",
+      "modified": null
+    },
+    {
+      "id": "471",
+      "group_id": "7",
+      "domain_id": "4",
+      "name": "Octinoxate, Oxybenzone, Avobenzene, Octocrylene",
+      "classification": "S",
+      "created": "2014-09-14T03:25:37Z",
+      "modified": null
+    },
+    {
+      "id": "644",
+      "group_id": "9",
+      "domain_id": "2",
+      "name": "CALENDULA OFFICINALIS",
+      "classification": "2XL",
+      "created": "2012-08-22T16:06:33Z",
+      "modified": null
+    },
+    {
+      "id": "247",
+      "group_id": "2",
+      "domain_id": "1",
+      "name": "Minocycline Hydrochloride",
+      "classification": "3XL",
+      "created": "2015-09-10T06:36:33Z",
+      "modified": "2014-12-20T03:48:22Z"
+    },
+    {
+      "id": "375",
+      "group_id": "8",
+      "domain_id": "8",
+      "name": "morphine sulfate",
+      "classification": "3XL",
+      "created": "2012-05-20T02:09:00Z",
+      "modified": null
+    },
+    {
+      "id": "248",
+      "group_id": "0",
+      "domain_id": "8",
+      "name": "OCTINOXATE, OXYBENZONE",
+      "classification": "2XL",
+      "created": "2013-11-28T07:31:08Z",
+      "modified": null
+    },
+    {
+      "id": "350",
+      "group_id": "0",
+      "domain_id": "9",
+      "name": "OCTINOXATE, TITANIUM DIOXIDE",
+      "classification": "3XL",
+      "created": "2015-08-07T19:43:02Z",
+      "modified": null
+    },
+    {
+      "id": "547",
+      "group_id": "8",
+      "domain_id": "1",
+      "name": "OCTINOXATE and TITANIUM DIOXIDE",
+      "classification": "L",
+      "created": "2016-04-28T22:27:33Z",
+      "modified": null
+    },
+    {
+      "id": "717",
+      "group_id": "5",
+      "domain_id": "8",
+      "name": "AMLODIPINE BESYLATE",
+      "classification": "L",
+      "created": "2016-03-26T14:49:01Z",
+      "modified": null
+    },
+    {
+      "id": "465",
+      "group_id": "6",
+      "domain_id": "7",
+      "name": "Dextromethorphan HBr, Guaifenesin",
+      "classification": "M",
+      "created": "2015-03-21T03:31:51Z",
+      "modified": "2015-03-22T21:24:43Z"
+    },
+    {
+      "id": "793",
+      "group_id": "1",
+      "domain_id": "3",
+      "name": "MIRTAZAPINE",
+      "classification": "XS",
+      "created": "2012-11-10T08:20:31Z",
+      "modified": null
+    },
+    {
+      "id": "253",
+      "group_id": "5",
+      "domain_id": "7",
+      "name": "Cefpodoxime Proxetil",
+      "classification": "3XL",
+      "created": "2013-05-15T11:01:18Z",
+      "modified": "2014-07-10T22:41:39Z"
+    },
+    {
+      "id": "494",
+      "group_id": "0",
+      "domain_id": "7",
+      "name": "Ranitidine",
+      "classification": "S",
+      "created": "2012-09-05T20:00:55Z",
+      "modified": null
+    },
+    {
+      "id": "057",
+      "group_id": "0",
+      "domain_id": "6",
+      "name": "benztropine mesylate",
+      "classification": "3XL",
+      "created": "2015-05-11T18:01:17Z",
+      "modified": null
+    },
+    {
+      "id": "787",
+      "group_id": "1",
+      "domain_id": "1",
+      "name": "Ibuprofen",
+      "classification": "XS",
+      "created": "2015-12-28T15:51:10Z",
+      "modified": "2013-09-27T04:03:16Z"
+    },
+    {
+      "id": "186",
+      "group_id": "1",
+      "domain_id": "6",
+      "name": "Avobenzone, Homosalate, Octisalate, Octocrylene, Oxybenzone",
+      "classification": "3XL",
+      "created": "2013-05-22T08:17:05Z",
+      "modified": null
+    },
+    {
+      "id": "796",
+      "group_id": "8",
+      "domain_id": "5",
+      "name": "benzonatate",
+      "classification": "M",
+      "created": "2014-01-09T07:32:20Z",
+      "modified": "2015-02-08T20:13:35Z"
+    },
+    {
+      "id": "740",
+      "group_id": "8",
+      "domain_id": "1",
+      "name": "treprostinil",
+      "classification": "3XL",
+      "created": "2013-06-20T06:00:31Z",
+      "modified": "2012-08-10T12:18:35Z"
+    },
+    {
+      "id": "983",
+      "group_id": "1",
+      "domain_id": "1",
+      "name": "BISACODYL",
+      "classification": "M",
+      "created": "2014-07-15T10:01:30Z",
+      "modified": null
+    },
+    {
+      "id": "941",
+      "group_id": "3",
+      "domain_id": "4",
+      "name": "polymyxin B sulfate, trimethoprim sulfate",
+      "classification": "XL",
+      "created": "2013-02-18T10:30:36Z",
+      "modified": null
+    },
+    {
+      "id": "112",
+      "group_id": "8",
+      "domain_id": "8",
+      "name": "oxycodone hydrochloride",
+      "classification": "L",
+      "created": "2014-08-03T00:25:45Z",
+      "modified": null
+    },
+    {
+      "id": "823",
+      "group_id": "8",
+      "domain_id": "8",
+      "name": "Metoprolol Tartrate and Hydrochlorothiazide",
+      "classification": "XS",
+      "created": "2012-03-10T11:49:39Z",
+      "modified": null
+    },
+    {
+      "id": "651",
+      "group_id": "5",
+      "domain_id": "7",
+      "name": "Furosemide",
+      "classification": "XL",
+      "created": "2015-03-12T11:05:10Z",
+      "modified": null
+    },
+    {
+      "id": "785",
+      "group_id": "8",
+      "domain_id": "4",
+      "name": "PHOSPHORUS",
+      "classification": "L",
+      "created": "2015-05-26T20:46:07Z",
+      "modified": "2014-07-04T03:20:15Z"
+    },
+    {
+      "id": "933",
+      "group_id": "7",
+      "domain_id": "2",
+      "name": "ALCOHOL",
+      "classification": "XS",
+      "created": "2015-06-27T00:24:17Z",
+      "modified": null
+    },
+    {
+      "id": "243",
+      "group_id": "3",
+      "domain_id": "6",
+      "name": "Benzocaine",
+      "classification": "M",
+      "created": "2015-12-17T16:34:48Z",
+      "modified": "2015-07-06T23:50:56Z"
+    },
+    {
+      "id": "679",
+      "group_id": "4",
+      "domain_id": "1",
+      "name": "Caffeine",
+      "classification": "L",
+      "created": "2013-07-20T13:19:23Z",
+      "modified": "2013-03-06T10:54:50Z"
+    },
+    {
+      "id": "001",
+      "group_id": "3",
+      "domain_id": "6",
+      "name": "Trihexyphenidyl Hydrochloride",
+      "classification": "M",
+      "created": "2015-02-13T02:59:42Z",
+      "modified": "2015-11-24T05:24:01Z"
+    },
+    {
+      "id": "722",
+      "group_id": "5",
+      "domain_id": "1",
+      "name": "Naproxen Sodium",
+      "classification": "2XL",
+      "created": "2014-06-08T10:22:14Z",
+      "modified": null
+    }
+  ]
+}

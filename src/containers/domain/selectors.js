@@ -1,0 +1,1 @@
+export const getDomains = state => state ? state.get('domains').toJS() : {};
