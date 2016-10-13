@@ -20,9 +20,6 @@ import store from './store';
 import NavBar from './components/navbar/NavBar';
 import Domain from './containers/domain/Domain';
 
-const Home = () => <Redirect to="/domains"/>;
-
-
 ReactDOM.render(
   <Provider store={store}>
     <Router>
