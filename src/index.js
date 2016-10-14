@@ -1,10 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Router from 'react-router/BrowserRouter';
-import Match from 'react-router/Match';
-import Link from 'react-router/Link';
-import Redirect from 'react-router/Redirect';
-import { Provider } from 'react-redux';
 
 /** Styles */
 import 'normalize.css';
@@ -17,9 +12,17 @@ import logo from './pentagon.svg';
 import store from './store/store';
 
 /** Elements */
+import Router from 'react-router/BrowserRouter';
+import Link from 'react-router/Link';
+import Match from 'react-router/Match';
+import Miss from 'react-router/Miss'
+import Redirect from 'react-router/Redirect';
+import { Provider } from 'react-redux';
 import Helmet from 'react-helmet';
 import NavBar from './components/navbar/NavBar';
-import Domain from './containers/domain/Domain';
+import DomainList from './containers/domain/DomainList';
+import GroupList from './containers/group/GroupList';
+
 
 ReactDOM.render(
   <Provider store={store}>
@@ -30,11 +33,18 @@ ReactDOM.render(
           titleTemplate="%s | Pentagon"
         />
         <NavBar logo={logo}>
-          <Link to="/domains">Domains</Link>
+          <Link to="/domains">Home</Link>
+          <Match pattern="/domains/:domain_id" component={({ params }) => <Link to={`/domains/${params.domain_id}`}>{params.domain_id}</Link>}/>
         </NavBar>
 
-        <Match exactly pattern="/" component={() => <Redirect to="/domains"/>} />
-        <Match exactly pattern="/domains" component={Domain} />
+        <Match pattern="/domains" render={() => (
+          <div>
+            <Match pattern="" component={DomainList}/>
+            <Match pattern=":domain_id" component={GroupList}/>
+          </div>
+        )}/>
+        <Match pattern="/" exactly component={() => <Redirect to="/domains"/>}/>
+        <Miss component={() => <h1>404</h1>}/>
       </div>
     </Router>
   </Provider>,
