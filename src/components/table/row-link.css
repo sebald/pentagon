@@ -1,8 +1,0 @@
-.RowLink {
-  display: block;
-  text-decoration: none;
-}
-
-.RowLink:hover {
-  background: rgba(0,0,0,0.05);
-}
