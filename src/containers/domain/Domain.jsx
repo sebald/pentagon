@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { createSelector } from 'reselect'
 
 /** Helper */
-import { getDomains } from './selectors';
+import { getDomains } from '../../store/domains/selectors';
 import { marginMedium } from '../../utils/space';
 
 /** Components */

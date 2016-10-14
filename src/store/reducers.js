@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux-immutable';
-import domains from './containers/domain/reducer';
+import domains from './domains/reducer';
 
 const rootReducer = combineReducers({
   domains

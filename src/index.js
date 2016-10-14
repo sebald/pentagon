@@ -14,7 +14,7 @@ import './index.css';
 import logo from './pentagon.svg';
 
 /** App State */
-import store from './store';
+import store from './store/store';
 
 /** Elements */
 import NavBar from './components/navbar/NavBar';
@@ -40,6 +40,6 @@ ReactDOM.render(
 
 /** MOCK DATA! */
 import data from './data.json';
-import { domainsFetched } from './containers/domain/actions';
+import { domainsFetched } from './store/domains/actions';
 
 store.dispatch(domainsFetched(data.domain));
