@@ -6,9 +6,10 @@ import { createSelector } from 'reselect'
 import { getDomains } from '../../store/domains/selectors';
 import { marginMedium } from '../../utils/space';
 
-/** Components */
-import Card from '../../components/card/Card';
+/** Elements */
+import Helmet from 'react-helmet';
 import Link from 'react-router/Link';
+import Card from '../../components/card/Card';
 import { Row, Cell } from '../../components/table/Table';
 
 
@@ -27,7 +28,10 @@ export class DomainList extends React.Component {
         </Cell>
       </Row>
     ));
-    return <Card style={marginMedium}>{items}</Card>;
+    return <Card style={marginMedium}>
+      <Helmet title="Domains"/>
+      {items}
+    </Card>;
   }
 }
 

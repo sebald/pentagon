@@ -17,6 +17,7 @@ import logo from './pentagon.svg';
 import store from './store/store';
 
 /** Elements */
+import Helmet from 'react-helmet';
 import NavBar from './components/navbar/NavBar';
 import Domain from './containers/domain/Domain';
 
@@ -24,9 +25,12 @@ ReactDOM.render(
   <Provider store={store}>
     <Router>
       <div>
+        <Helmet
+          title="Home"
+          titleTemplate="%s | Pentagon"
+        />
         <NavBar logo={logo}>
-          <Link to="/">Home</Link>
-          <Link to="/123">Home</Link>
+          <Link to="/domains">Domains</Link>
         </NavBar>
 
         <Match exactly pattern="/" component={() => <Redirect to="/domains"/>} />

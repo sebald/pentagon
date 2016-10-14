@@ -35,10 +35,12 @@
   font-size: 18px;
   font-weight: 300;
   text-decoration: none;
+
+  transition: color 0.15s ease-in-out;
 }
 
 .Navbar-item a:hover {
-  color: var(--Color-brand--light);
+  color: var(--Color-brand--lightest);
 }
 
 @keyframes icon-spin {

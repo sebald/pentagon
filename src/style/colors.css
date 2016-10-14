@@ -2,8 +2,8 @@
   /** Brand */
   --Color-brand: #017a6c;
   --Color-brand--light: #bee5e1;
+  --Color-brand--lightest: #f7fefb;
   --Color-brand--dark: #001916;
-  --Color-brand--background: #f7fefb;
 
   /** Colors */
   --Color-white: #fff;
