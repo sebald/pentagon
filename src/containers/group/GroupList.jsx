@@ -1,16 +1,13 @@
 import React, { PropTypes } from 'react';
 
-const GroupList = ({ pathname, params }) => (
+const GroupList = ({ pathname, domain_id }) => (
   <div>
-    <h1>{ params.domain_id }</h1>
+    <h1>Groups for Domain { domain_id }</h1>
   </div>
 )
 
 GroupList.propTypes = {
-  pathname: PropTypes.string.isRequired,
-  params: PropTypes.shape({
-    domain_id: PropTypes.string.isRequired
-  }).isRequired
+  pathname: PropTypes.string.isRequired
 }
 
 export default GroupList;

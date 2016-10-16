@@ -4,16 +4,20 @@ import GroupList from './GroupList';
 import Product from '../product/Product';
 
 
-const Group = ({ pathname }) => (
+const Group = ({ pathname, params }) => (
   <div>
-    <span>Group: {pathname}</span>
-    <Match pattern={`/:domain_id(\\d+)`} exactly component={GroupList}/>
-    <Match pattern={`/:domain_id(\\d+)/:group_id(\\d+)`} component={Product}/>
+    <Match pattern={`${pathname}`} exactly render={
+      props => <GroupList domain_id={params.domain_id} {...props}/>
+    }/>
+    <Match pattern={`${pathname}/:group_id(\\d+)`} component={Product}/>
   </div>
 )
 
 Group.propTypes = {
-  pathname: PropTypes.string.isRequired
+  pathname: PropTypes.string.isRequired,
+  params: PropTypes.shape({
+    domain_id: PropTypes.string.isRequired
+  }).isRequired
 }
 
 export default Group;

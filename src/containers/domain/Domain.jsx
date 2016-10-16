@@ -7,7 +7,7 @@ import Group from '../group/Group';
 const Domain = ({ pathname }) => (
   <div>
     <Match pattern={`${pathname}`} exactly component={DomainList}/>
-    <Match pattern={`${pathname}:domain_id(\\d+)`} component={Group}/>
+    <Match pattern={`${pathname}/:domain_id(\\d+)`} component={Group}/>
   </div>
 )
 

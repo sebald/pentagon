@@ -16,6 +16,7 @@ import Router from 'react-router/BrowserRouter';
 import Link from 'react-router/Link';
 import Match from 'react-router/Match';
 import Miss from 'react-router/Miss'
+import Redirect from 'react-router/Redirect';
 import { Provider } from 'react-redux';
 import Helmet from 'react-helmet';
 import NavBar from './components/navbar/NavBar';
@@ -32,10 +33,11 @@ ReactDOM.render(
         />
 
         <NavBar logo={logo}>
-          <Link to="/">Home</Link>
+          <Link to="/domains">Home</Link>
         </NavBar>
 
-        <Match pattern="/" component={Domain} />
+        <Match pattern="/domains" component={Domain} />
+        <Match pattern="/" exactly component={() => <Redirect to="/domains"/>}/>
 
         <Miss component={() => <h1>404</h1>}/>
       </div>

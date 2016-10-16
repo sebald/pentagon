@@ -16,7 +16,7 @@ import { Row, Cell } from '../../components/table/Table';
 export const DomainItem = ({ domain, pathname }) => (
   <Row hover>
     <Cell size="12">
-      <Link to={`${pathname}${domain.id}`}>
+      <Link to={`${pathname}/${domain.id}`}>
         <Row>
           <Cell size="6">{domain.id}</Cell>
           <Cell size="6">{domain.label}</Cell>
