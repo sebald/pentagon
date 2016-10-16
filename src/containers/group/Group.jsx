@@ -5,13 +5,14 @@ import Product from '../product/Product';
 
 
 const Group = ({ pathname, params }) => (
-  <div>
-    <span>group</span>
-    <Match pattern={`${pathname}`} exactly render={
-      props => <GroupList domain_id={params.domain_id} {...props}/>
-    }/>
-    <Match pattern={`${pathname}/:group_id(\\d+)`} component={Product}/>
-  </div>
+  <Match pattern={`${pathname}`} children={() => (
+    <div>
+      <Match pattern="" render={
+        props => <GroupList domain_id={params.domain_id} {...props}/>
+      }/>
+      <Match pattern=":group_id" component={Product}/>
+    </div>
+  )}/>
 )
 
 Group.propTypes = {
