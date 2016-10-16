@@ -16,12 +16,10 @@ import Router from 'react-router/BrowserRouter';
 import Link from 'react-router/Link';
 import Match from 'react-router/Match';
 import Miss from 'react-router/Miss'
-import Redirect from 'react-router/Redirect';
 import { Provider } from 'react-redux';
 import Helmet from 'react-helmet';
 import NavBar from './components/navbar/NavBar';
-import DomainList from './containers/domain/DomainList';
-import GroupList from './containers/group/GroupList';
+import Domain from './containers/domain/Domain';
 
 
 ReactDOM.render(
@@ -32,18 +30,13 @@ ReactDOM.render(
           title="Home"
           titleTemplate="%s | Pentagon"
         />
+
         <NavBar logo={logo}>
-          <Link to="/domains">Home</Link>
-          <Match pattern="/domains/:domain_id" component={({ params }) => <Link to={`/domains/${params.domain_id}`}>{params.domain_id}</Link>}/>
+          <Link to="/">Home</Link>
         </NavBar>
 
-        <Match pattern="/domains" render={() => (
-          <div>
-            <Match pattern="" component={DomainList}/>
-            <Match pattern=":domain_id" component={GroupList}/>
-          </div>
-        )}/>
-        <Match pattern="/" exactly component={() => <Redirect to="/domains"/>}/>
+        <Match pattern="/" component={Domain} />
+
         <Miss component={() => <h1>404</h1>}/>
       </div>
     </Router>

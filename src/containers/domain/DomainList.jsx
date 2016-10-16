@@ -9,16 +9,14 @@ import { marginMedium } from '../../utils/space';
 /** Elements */
 import Helmet from 'react-helmet';
 import Link from 'react-router/Link';
-import Match from 'react-router/Match';
 import Card from '../../components/card/Card';
 import { Row, Cell } from '../../components/table/Table';
-import Domain from './Domain';
 
 /** List Item */
-export const DomainItem = ({ domain, to }) => (
+export const DomainItem = ({ domain, pathname }) => (
   <Row hover>
     <Cell size="12">
-      <Link to={`${to}/${domain.id}`}>
+      <Link to={`${pathname}${domain.id}`}>
         <Row>
           <Cell size="6">{domain.id}</Cell>
           <Cell size="6">{domain.label}</Cell>
@@ -34,12 +32,14 @@ export class DomainList extends React.Component {
   render() {
     const { domains, pathname } = this.props;
     return (
-      <Card style={marginMedium}>
+      <div>
         <Helmet title="Domains"/>
-        {Object.keys(domains).map(id => (
-          <DomainItem key={id} to={pathname} domain={domains[id]} />
-        ))}
-      </Card>
+        <Card style={marginMedium}>
+          {Object.keys(domains).map(id => (
+            <DomainItem key={id} pathname={pathname} domain={domains[id]}/>
+          ))}
+        </Card>
+      </div>
     );
   }
 }
