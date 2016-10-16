@@ -5,10 +5,12 @@ import Group from '../group/Group';
 
 
 const Domain = ({ pathname }) => (
-  <div>
-    <Match pattern={`${pathname}`} exactly component={DomainList}/>
-    <Match pattern={`${pathname}/:domain_id(\\d+)`} component={Group}/>
-  </div>
+  <Match pattern={`${pathname}`} children={() => (
+    <div>
+      <Match pattern="" component={DomainList}/>
+      <Match pattern=":domain_id" component={Group}/>
+    </div>
+  )}/>
 )
 
 Domain.propTypes = {
