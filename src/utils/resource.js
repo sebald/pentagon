@@ -1,9 +1,9 @@
 /**
- * Normalize fetched `list` of resources from the server to a `Map<prop, item>`.
+ * Normalize fetched `list` of resources from the server to a `Map<fn(item), item>`.
  */
-export const normalizeByProp = (prop, list) => {
+export const normalizeBy = (fn, list) => {
   return list.reduce((map, item) => {
-    map[item[prop]] = item;
+    map[fn(item)] = item;
     return map;
   }, {});
 };

@@ -7,7 +7,7 @@ import Product from '../product/Product';
 const Group = ({ pathname, params }) => (
   <Match pattern={`${pathname}`} children={() => (
     <div>
-      <Match pattern="" render={
+      <Match pattern="/" render={
         props => <GroupList domain_id={params.domain_id} {...props}/>
       }/>
       <Match pattern=":group_id" component={Product}/>

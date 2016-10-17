@@ -50,5 +50,7 @@ ReactDOM.render(
 /** MOCK DATA! */
 import data from './data.json';
 import { domainsFetched } from './store/domains/actions';
+import { groupsFetched } from './store/groups/actions';
 
 store.dispatch(domainsFetched(data.domain));
+store.dispatch(groupsFetched(data.group));
