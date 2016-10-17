@@ -30,7 +30,8 @@ export const DomainItem = ({ domain, pathname }) => (
 /** List */
 export class DomainList extends React.Component {
   render() {
-    const { domains, pathname } = this.props;
+    const { pathname } = this.props;
+    const domains = this.props.domains.toJS();
     return (
       <div>
         <Helmet title="Domains"/>
@@ -43,6 +44,7 @@ export class DomainList extends React.Component {
     );
   }
 }
+
 
 export default connect(createSelector(
   getDomains(),

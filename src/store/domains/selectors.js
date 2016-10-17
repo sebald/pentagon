@@ -1,4 +1,4 @@
-export const getDomains = () => state => state.get('domains').toJS();
+export const getDomains = () => state => state.get('domains');
 
 /**
  * For later reference:
