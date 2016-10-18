@@ -3,7 +3,7 @@ import {
   FETCH_GROUPS,
   FETCH_GROUPS_SUCCESS,
   FETCH_GROUPS_ERROR } from './actions';
-  import { normalizeBy } from '../../utils/resource';
+import { normalizeBy } from '../../utils/resource';
 
 
 const initialState = fromJS({});

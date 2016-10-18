@@ -25,11 +25,11 @@ const App = () => (
         />
 
         <NavBar logo={logo}>
-          <Link to="/domains">Home</Link>
+          <Link to="/domain">Home</Link>
         </NavBar>
 
-        <Match pattern="/domains" component={Domain} />
-        <Match pattern="/" exactly component={() => <Redirect to="/domains"/>}/>
+        <Match pattern="/domain" component={Domain} />
+        <Match pattern="/" exactly component={() => <Redirect to="/domain"/>}/>
 
         <Miss component={() => <h1>404</h1>}/>
       </div>

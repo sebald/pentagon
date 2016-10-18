@@ -5,6 +5,7 @@ import reducer from './reducers';
 import data from '../data.json';
 import { domainsFetched } from './domains/actions';
 import { groupsFetched } from './groups/actions';
+import { productsFetched } from './products/actions';
 
 const configureStore = () => {
   const devtools = window.devToolsExtension || (() => (noop) => noop);
@@ -16,6 +17,7 @@ const configureStore = () => {
   /** MOCK DATA! */
   store.dispatch(domainsFetched(data.domain));
   store.dispatch(groupsFetched(data.group));
+  store.dispatch(productsFetched(data.product));
 
   return store;
 }
