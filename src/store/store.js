@@ -1,9 +1,23 @@
 import { createStore, compose } from 'redux';
 import reducer from './reducers';
 
-const devtools = window.devToolsExtension || (() => (noop) => noop);
-const enhancers = [devtools()];
+/** MOCK DATA! */
+import data from '../data.json';
+import { domainsFetched } from './domains/actions';
+import { groupsFetched } from './groups/actions';
 
-/** Create Store */
-const store = createStore(reducer, compose(...enhancers));
-export default store;
+const configureStore = () => {
+  const devtools = window.devToolsExtension || (() => (noop) => noop);
+  const enhancers = [devtools()];
+
+  /** Create Store */
+  const store = createStore(reducer, compose(...enhancers));
+
+  /** MOCK DATA! */
+  store.dispatch(domainsFetched(data.domain));
+  store.dispatch(groupsFetched(data.group));
+
+  return store;
+}
+
+export default configureStore;
