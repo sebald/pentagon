@@ -1,7 +1,7 @@
 import React from 'react';
 import Match from 'react-router/Match';
 import Redirect from 'react-router/Redirect';
-import DomainList from './DomainList';
+import DomainView from './DomainView';
 import Group from '../group/Group';
 
 
@@ -12,7 +12,7 @@ const Domain = ({ pathname }) => (
     }/>
     <Match pattern={`${pathname}`} children={() => (
       <div>
-        <Match pattern="" component={DomainList}/>
+        <Match pattern="" component={DomainView}/>
         <Match pattern=":domain_id/group" component={Group}/>
       </div>
     )}/>
